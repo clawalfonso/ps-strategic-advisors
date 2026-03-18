@@ -1476,3 +1476,19 @@ section {
   .hero { padding-top: 6rem; }
   .page-hero { padding-top: 6rem; }
 }
+
+/* Real images */
+.logo-img { height: 44px; width: auto; object-fit: contain; }
+.team-avatar-img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid var(--primary, #0097A7); }
+
+/* Replace emoji icons with styled spans */
+.usp-icon, .value-icon, .contact-icon, .service-icon { 
+  font-size: 1.5rem; 
+  width: 56px; height: 56px; 
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, #0097A7 0%, #00BCD4 100%);
+  color: #fff;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+  font-style: normal;
+}
