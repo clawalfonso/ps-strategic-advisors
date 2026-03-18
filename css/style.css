@@ -631,7 +631,7 @@ section {
 
 .package-card.featured .package-badge {
   background: var(--accent);
-  color: var(--secondary);
+  color: #ffffff;
 }
 
 .package-card h3 {
