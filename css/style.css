@@ -1,6 +1,6 @@
 /* =============================================
    PS Strategic Advisors — Design System
-   Primary: #0097A7 | Secondary: #1A2332 | Accent: #D4A843
+   Primary: #0097A7 | Secondary: #1A2332 | Accent: #1A5276 (blue)
    ============================================= */
 
 /* --- Reset & Base --- */
@@ -12,8 +12,8 @@
   --primary-light: #B2EBF2;
   --secondary: #1A2332;
   --secondary-light: #2A3A52;
-  --accent: #D4A843;
-  --accent-dark: #B8912E;
+  --accent: #1A5276;
+  --accent-dark: #154360;
   --white: #FFFFFF;
   --off-white: #F8F9FA;
   --light-gray: #E9ECEF;
@@ -117,15 +117,15 @@ section {
 
 .btn-primary {
   background: var(--accent);
-  color: var(--secondary);
+  color: #ffffff;
   border-color: var(--accent);
 }
 .btn-primary:hover {
   background: var(--accent-dark);
   border-color: var(--accent-dark);
-  color: var(--secondary);
+  color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(212,168,67,0.35);
+  box-shadow: 0 4px 16px rgba(26,82,118,0.35);
 }
 
 .btn-secondary {
@@ -234,7 +234,6 @@ section {
 
 .nav-links a {
   color: var(--secondary);
-  color: rgba(255,255,255,0.75);
   font-size: 0.9375rem;
   font-weight: 500;
   transition: color var(--transition);
@@ -368,7 +367,7 @@ section {
   left: -5%;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(212,168,67,0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(26,82,118,0.06) 0%, transparent 70%);
   border-radius: 50%;
 }
 
