@@ -585,6 +585,11 @@ section {
   transition: all var(--transition);
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.package-card .btn {
+  margin-top: auto;
 }
 
 .package-card::before {
